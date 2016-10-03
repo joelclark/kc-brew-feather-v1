@@ -1,4 +1,4 @@
-œ#include <adafruit_feather.h>
+#include <adafruit_feather.h>
 #include "global.hpp"
 
 #include "Log.hpp"
@@ -17,6 +17,7 @@ BrewhouseClass              Brewhouse;
 
 void loop() 
 {
+  Brewhouse.loop();
 }
 
 // ---------------------------------------------------------------------------- setup

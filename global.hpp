@@ -5,8 +5,12 @@
 //-------------------------------------------------------------------------------------------//
 
 
+#define BREWHOUSE_NAME                "Mountain Medicine Brewhouse"
+#define BREWHOUSE_URL                 "http://mountainmedicinebrewing.com/"
+
 #define WLAN_SSID                     "CESSPOOL3"
 #define WLAN_PASS                     "foobar00"
+
 #define ELEMENT_MAX_CONCURRENCY       2
 
 
@@ -18,7 +22,7 @@
 #define UDP_INDICATOR_ON_TIME         25
 
 #define ONE_WIRE_BUS                  PA1
-#define TEMPERATURE_PROBE_RESOLUTION  10
+#define TEMPERATURE_PROBE_RESOLUTION  11
 #define TEMPERATURE_PROBE_MAX_COUNT   8
 #define VESSEL_MAX_COUNT              5
 #define ELEMENT_MAX_COUNT             2
